@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-  <!-- Remotes -->
 
   <!-- Device Tree -->
+  <project path="device/google/blueline" name="LineageOS/android_device_google_crosshatch" remote="github" revision="lineage-20" />
   <!-- Vendor Tree -->
+  <project path="vendor/google/blueline" name="TheMuppets/proprietary_vendor_google_blueline" remote="github" revision="lineage-20" />
   <!-- Kernel Tree -->
- 
+  <project path="kernel/google/blueline" name="LineageOS/android_kernel_google_msm-4.9" remote="github" revision="lineage-20" />
+  
 </manifest>
