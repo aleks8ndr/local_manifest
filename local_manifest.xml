@@ -8,7 +8,7 @@
   <!-- Device Tree -->
   <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="LineageOS" revision="lineage-19.1" />
   <!-- Vendor Tree -->
-  <project path="vendor/google/blueline" name="proprietary_vendor_google_blueline" remote="TheMuppets" revision="lineage-19.1" />
+  <project path="vendor/google/blueline" name="proprietary_vendor_google_blueline" remote="TheMuppets" revision="lineage-20" />
   <!-- Kernel Tree -->
   <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="LineageOS" revision="lineage-19.1" />
   
