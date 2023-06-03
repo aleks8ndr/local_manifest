@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <!-- Remotes -->
+  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
 
   <!-- Device Tree -->
-  <project path="device/google/crosshatch" name="LineageOS/android_device_google_crosshatch" remote="github" revision="lineage-20" />
+  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="LineageOS" revision="lineage-19.1" />
   <!-- Vendor Tree -->
-  <project path="vendor/google/blueline" name="TheMuppets/proprietary_vendor_google_blueline" remote="github" revision="lineage-20" />
+  <project path="vendor/google/blueline" name="proprietary_vendor_google_blueline" remote="TheMuppets" revision="lineage-19.1" />
   <!-- Kernel Tree -->
-  <project path="kernel/google/msm-4.9" name="LineageOS/android_kernel_google_msm-4.9" remote="github" revision="lineage-20" />
+  <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="LineageOS" revision="lineage-19.1" />
   
 </manifest>
